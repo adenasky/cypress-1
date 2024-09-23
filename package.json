@@ -1,0 +1,18 @@
+{
+  "name": "cypress1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run:headed:laptop": "cypress run --config-file cypress.config.js --headed --browser chrome",
+    "cypress:run:headless:laptop": "cypress run --config-file cypress.config.js --headless --browser chrome",
+    "cypress:run:headed:mobile": "cypress run --config-file cypress.mobile.config.js --headed --browser chrome",
+    "cypress:run:headless:mobile": "cypress run --config-file cypress.mobile.config.js --headless --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  }
+}
